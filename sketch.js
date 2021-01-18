@@ -37,12 +37,13 @@ function setup() {
   treasurebox1.addImage(treasure1_img);
   treasurebox1.scale=0.4;
   
-  treasurebox2=createSprite(1430,90)
+  treasurebox2=createSprite(width-70,height-620);
   treasurebox2.scale=0.2;
-  treasurebox3=createSprite(1430,550);
+  treasurebox3=createSprite(width-70,height-130);
   treasurebox3.scale=0.4;
   treasurebox4=createSprite(50,550);
   treasurebox4.scale=0.4;
+
 
  treasurebox1.addImage(treasure1_img);
 treasurebox2.addImage(treasure1_img);
@@ -52,11 +53,12 @@ treasurebox4.addImage(treasure1_img);
   web1=createSprite(40,20,100,50);
   web1.debug=false;
   web1.setCollider("circle",0,0,160);
-  web2=createSprite(1500,20,20,20);
+  web2=createSprite(width-30,height-650,20,20);
   web2.setCollider("rectangle",0,0,330,270);
-  web3=createSprite(1500,600,20,20);
+  web3=createSprite(width-70,height-100,20,20);
   web3.setCollider("circle",0,0,160);
   web4=createSprite(40,600,50,40);
+ 
  
   web1.addImage(web_img);
   web2.addImage(web_img);
